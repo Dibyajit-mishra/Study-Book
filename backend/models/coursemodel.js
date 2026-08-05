@@ -8,10 +8,10 @@ const courseSchema=new mongoose.Schema({
     },
     AccountId:{
         type: mongoose.Schema.Types.ObjectId,
-        ref: Account,
+        ref: "account",
         required: true
     }
 },
 {timestamps:true,})
 
-module.exports = mongoose.model('Courses',courseSchema)
+module.exports = mongoose.model('courses',courseSchema)
