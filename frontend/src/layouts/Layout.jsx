@@ -5,7 +5,7 @@ import {Outlet} from 'react-router-dom'
 
 function Layout() {
   return (
-    <div className="container">
+    <div className="container h-screen">
       <Sidebar />
 
       <div className="content">
